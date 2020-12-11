@@ -249,7 +249,7 @@ def get_help(update, context):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",url="t.me/{}?start=help".format(context.bot.username)),
-                                                InlineKeyboardButton(text="👥 Support chat.",url="https://telegram.dog/LuciferProBotSupport")]]))
+                                                InlineKeyboardButton(text="👥 Support chat.",url="https://telegram.dog/cyberwordk")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
@@ -426,7 +426,7 @@ def donate(update, context):
     if chat.type == "private":
         update.effective_message.reply_text(HELP_PANEL_STRING.DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 1031840046 and DONATION_LINK:
+        if OWNER_ID != 1131653685 and DONATION_LINK:
             update.effective_message.reply_text("You can also donate to the person currently running me "
                                                 "[here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
