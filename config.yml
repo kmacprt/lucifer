@@ -9,7 +9,7 @@ api_hash: 'Get it from mytelegram.org'  #API HASH
 owner_username:  "YOUR USERNAME HERE"  #Just write it with the @ ex "@Amazers_xD"
 donation_link: "" #paypal etc
 support_chat: "No Support Chat exists" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
-database_url: "sqldbtype://username:pw@hostname:port/db_name" # needed for any database modules
+database_url: "mongodb+srv://joker:dkkaj0123456@cluster0.ccvt1.mongodb.net/<dbname>?retryWrites=true&w=majority" # needed for any database modules
 message_dump: "None" # needed to make sure 'save from' messages persist
 gban_dump: "None" #Channel ID here with the hyphen like -123456789
 load: []
